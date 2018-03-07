@@ -57,3 +57,16 @@ header img {
   margin-top: 1rem;
   line-height: 1.2;
 }
+
+nav {
+  background-color: firebrick;
+}
+
+nav li {
+  padding: 0.75rem 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
