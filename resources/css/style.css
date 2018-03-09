@@ -95,7 +95,7 @@ footer {
 }
 
 .product-card img {
-  /* height: 9rem; */
+  max-height: 9rem;
   max-width: 9rem;
   padding: 2rem 1rem;
 }
