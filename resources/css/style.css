@@ -23,6 +23,11 @@ header img {
 .row {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+
+.top-headline {
+  justify-content: flex-start;
 }
 
 .logo img {
@@ -76,11 +81,6 @@ footer {
 
 .copyright {
   padding: 2rem 0;
-}
-
-.row {
-  display: flex;
-  justify-content: space-between;
 }
 
 .cards {
