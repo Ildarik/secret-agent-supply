@@ -174,7 +174,15 @@ footer {
     display: none;
   }
 
+  .info-card {
+    width: 90%;
+  }
+
   .row {
     justify-content: center;
+  }
+
+  .contact {
+    flex-direction: column;
   }
 }
