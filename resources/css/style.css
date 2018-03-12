@@ -60,11 +60,6 @@ header img {
   font-size: 2rem;
   margin-top: 0.5rem;
   line-height: 1.2;
-  font-weight: bold;
-}
-
-.heading h2 {
-  font-weight: bold;
 }
 
 nav {
@@ -151,4 +146,23 @@ footer {
 #glasses > img {
   margin-top: 43px;
   margin-bottom: 42px;
+}
+
+@media only screen and (max-width: 470px) {
+  .heading h1 {
+    font-size: 1rem;
+  }
+
+  .heading h2 {
+    font-size: 0.77rem;
+  }
+
+  .heading {
+    padding: 1.3rem 2rem;
+    top: 10rem;
+  }
+
+  .banner {
+    height: 15rem;
+  }
 }
