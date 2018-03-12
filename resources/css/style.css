@@ -80,6 +80,10 @@ nav ul {
   justify-content: space-between;
 }
 
+.mobile-nav {
+  display: none;
+}
+
 footer {
   background-color: black;
 }
@@ -132,6 +136,15 @@ footer {
 
   #glasses {
     display: none;
+  }
+
+  .desktop-nav {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: block;
+    text-align: center;
   }
 }
 
