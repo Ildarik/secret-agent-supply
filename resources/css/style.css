@@ -165,4 +165,16 @@ footer {
   .banner {
     height: 15rem;
   }
+
+  .product-card {
+    flex-basis: 90%;
+  }
+
+  #watch {
+    display: none;
+  }
+
+  .row {
+    justify-content: center;
+  }
 }
