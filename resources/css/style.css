@@ -58,8 +58,13 @@ header img {
 
 .heading h1 {
   font-size: 2rem;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   line-height: 1.2;
+  font-weight: bold;
+}
+
+.heading h2 {
+  font-weight: bold;
 }
 
 nav {
