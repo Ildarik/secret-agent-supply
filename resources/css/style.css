@@ -124,3 +124,18 @@ footer {
   flex-basis: 35%;
   margin-bottom: 1rem;
 }
+
+@media only screen and (max-width: 1024px) {
+  .product-card {
+    flex-basis: 47%;
+  }
+
+  #glasses {
+    display: none;
+  }
+}
+
+#glasses > img {
+  margin-top: 43px;
+  margin-bottom: 42px;
+}
